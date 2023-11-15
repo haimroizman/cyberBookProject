@@ -71,6 +71,7 @@ const AvailableBooks = () => {
         >
           <option value="10">10</option>
           <option value="25">25</option>
+          <option value="40">40</option>
           <option value="50">50</option>
         </select>
         <div className="space-x-4">
