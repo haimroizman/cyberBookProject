@@ -1,0 +1,46 @@
+.book-item {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #230052;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+.book-item h2 {
+  font-size: 2rem;
+  color: #f7e702;
+}
+
+.book-item h3 {
+  color: #eccf77;
+  margin: 0;
+  font-size: 1rem;
+}
+
+.book-item img {
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+  transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
+}
+
+ .link-container {
+  display: inline-block;
+  text-decoration: none; /* Remove underline */
+  padding: 10px 20px; /* Adjust padding to your preference */
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s ease;
+}
+
+ a:hover {
+  background-color: #0056b3; /* New background color on hover */
+}
+
+.book-image {
+  max-width: 100%; /* Ensure the image fits within the container */
+  height: auto; /* Maintain the image's aspect ratio */
+}
